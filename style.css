@@ -4,6 +4,65 @@
     padding: 0px;
 }
 
+body {
+background-color: #cfcf7b;
+}
+
 .comida-container {
   /* Estilos para el contenedor de la lista */
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 5vw;
+  margin-left: 2.5vw;
+}
+
+.info_cuadro {
+  background-color: maroon;
+  height: 40vh;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  color: black;
+}
+
+.form_argegar_comida {
+  background-color: white;
+  height: 50vh;
+  width: 30vw;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  flex-direction: column;
+  border: 5px solid black;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.agregar_comida {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.filtros {
+  background-color: white;
+  border: 5px solid black;
+  height: 10vh;
+  width: 150vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10vw;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+#buscador {
+  width: 40vh;
 }
